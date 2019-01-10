@@ -105,9 +105,13 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php') ) {
 			$variations = $product->get_available_variations();
 
 			// Let's find which variation is this
-			foreach ($variations as $var_arr) {
+			foreach ($variations as $idx => $var_arr) {
 				if (empty($var_arr['attributes'])) {
 					continue;
+				}
+
+				if (empty($checked) && $idx == 0) {
+					$checked = checked( 1, 1, false );
 				}
 
 				$all_attribs_ser = serialize($var_arr['attributes']);
