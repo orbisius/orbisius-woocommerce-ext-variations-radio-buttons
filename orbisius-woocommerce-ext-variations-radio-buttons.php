@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: WC Variations Radio Buttons
- * Plugin URI:  https://wordpress.org/plugins/wc-variations-radio-buttons/
- * Description: Variations Radio Buttons for WooCommerce. Let your customers choose product variations using radio buttons instead of dropdowns.
+ * Plugin Name: Orbisius WooCommerce Ext: WC Variations Radio Buttons (formerly WC Variations Radio Buttons)
+ * Plugin URI:  https://github.com/orbisius/orbisius-woocommerce-ext-variations-radio-buttons | https://wordpress.org/plugins/wc-variations-radio-buttons/
+ * Description: Variations Radio Buttons for WooCommerce.
  * Version:     2.0.1
- * Author:      8manos
- * Author URI:  http://8manos.com
+ * Author:      8manos,orbisius
+ * Author URI:  http://8manos.com customized by Orbisius
  * License:     GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
